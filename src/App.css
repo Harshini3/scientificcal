@@ -1,0 +1,37 @@
+
+body{
+    text-align: center;
+     background-image: url('./assets/img1.jpg');
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    margin-top: 2px;
+    font-family: cursive;
+    font-size: 90px;
+}
+
+
+p{
+    font-size: 1.2rem;
+    color:brown;
+    font-weight: bolder;
+    background: #eaeaea;
+    padding: 7px;
+    width: 60%;
+    margin: 10px auto 0;
+    border-radius: 15px;
+}
+
+@media(max-width: 768px){
+    h1{
+       font-size: 1.2rem;
+    }
+    p{
+        width: 95%;
+    }
+    footer a, p{
+        font-size: 0.8rem;
+    }
+}
